@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+
+    background-color: rgb(255, 145, 0);
+}
+
+.container{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Sono', sans-serif;
+}
+
+#Title, 
+#SubTilte{
+    margin-bottom: 19px;
+}
+
+.lineSecond{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+
+    font-size: 34px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+#button-start, 
+#button-stop, 
+#button-reset{
+
+    cursor: pointer;
+
+    width: 120px;
+    height: 40px;
+
+    background-color: transparent;
+    font-size: 22px;
+
+    border: 1px solid transparent;
+}
+
+#button-start:hover, 
+#button-stop:hover, 
+#button-reset:hover{
+
+    font-size: 24px;
+    transition: 0.5s;
+
+    color: white;
+    border: 1px solid white;
+
+    box-shadow: 1px 1px 2px black;
+
+}
